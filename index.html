@@ -10,11 +10,17 @@
 	    <meta name="author" content="Tahmid Hasan">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.8/popper.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+        <script  src="js/script.js"></script>
     </head>
     <body>
     	<style>
@@ -25,16 +31,38 @@
 		</style>
 
         <div class="container mt-5" >
-
-            <div class="navbar">
-                <a href="#about">About</a>
-                <a href="#publications">Publications</a>
-                <a href="#ongoing-projects">Ongoing Projects</a>
-                <a href="#education">Education</a>
-                <a href="#professional-experience">Professional Experience</a>
-                <a href="#honors-awards">Honors & Awards</a>
-                <a href="#teaching-experience">Teaching</a>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+                <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#publications">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ongoing-projects">Ongoing Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#professional-experience">Professional Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#honors-awards">Honors & Awards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#teaching-experience">Teaching</a>
+                        </li>
+                        </ul>
+                        </div>
+                </div>
+            </nav>
     
             <div class="row mb-3" id="about">
                 <div class="col"><br/>
@@ -70,7 +98,7 @@
                     </p>
                     <p>
                         Links:
-                        [<a href="" target="_blank">Curriculum Vitae</a>] [<a href="https://scholar.google.com/citations?user=UfXXUpQAAAAJ&hl=en" target="_blank">Google Scholar</a>] [<a href="https://twitter.com/tahmidhasan04" target="_blank">Twitter</a>] [<a href="https://github.com/Tahmid04" target="_blank">Github</a>]
+                        [<a href="pdf/CV_Tahmid_Hasan.pdf" target="_blank">Curriculum Vitae</a>] [<a href="https://scholar.google.com/citations?user=UfXXUpQAAAAJ&hl=en" target="_blank">Google Scholar</a>] [<a href="https://twitter.com/tahmidhasan04" target="_blank">Twitter</a>] [<a href="https://github.com/Tahmid04" target="_blank">Github</a>]
                     </p>
                 </div>
             </div>
@@ -385,7 +413,7 @@
                             Department of Computer Science and Engineering<br/>
                             Bangladesh University of Engineering and Technology (BUET)<br/>
                             Supervisor: Prof. Rifat Shahriyar<br/>
-                            CGPA: 4.00/4.00<br/>
+                            CGPA: 3.90/4.00<br/>
                             <br/>
                         </li>
 

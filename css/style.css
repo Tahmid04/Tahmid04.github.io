@@ -7,29 +7,4 @@ a {
     color: #0070cc; 
 }
 
-.navbar {
-    display: block;
-    overflow: hidden;
-    background-color: #FFFFFF;
-    position: sticky;
-    align-items: center;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-  
-.navbar a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 1px 20px 1px 20px;
-    text-decoration: none;
-    font-size: 110%;
-    position: relative;
-}
-  
-.navbar a:hover {
-    background: #ddd;
-    color: black;
-}
+html { scroll-behavior: smooth; } 
