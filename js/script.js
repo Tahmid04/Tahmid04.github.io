@@ -3,6 +3,14 @@ $(document).ready(function() {
 		$('.navbar-collapse').collapse('hide');
 	});
 
+    $('#myButton').on('click', function(){
+        if ($('#navbarCollapse').is(":visible") == true) {
+            $('.navbar-collapse').collapse('hide');
+        } else {
+            $('.navbar-collapse').collapse('show');
+        }
+    });
+
 	$('a').on('click', function (e) {
         // e.preventDefault();
 

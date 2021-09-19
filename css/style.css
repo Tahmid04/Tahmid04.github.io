@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 body {
-    font-family: "PT Serif";
+    font-family: PT Serif, serif;
 }
 
 a {
