@@ -167,6 +167,52 @@
 
                         <li>
 
+                            <a href="https://aclanthology.org/2020.emnlp-main.207.pdf" target="_blank">
+                                <b>Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for Bengali-English Machine Translation</b>
+                            </a>
+                            <br/>
+                            <b>Tahmid Hasan</b>,  Abhik Bhattacharjee,  Kazi Samin, Masum Hasan, Madhusudan Basak, M. Sohel Rahman, Rifat Shahriyar     
+                            <br/>
+                            In <a href="https://aclanthology.org/volumes/2020.emnlp-main/" target="_blank">
+                                <b>
+                                    Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP) </b></a>
+                            <br/>
+
+                            [<a href="#" onclick="$('#emnlp2020_bib').toggle();return false;">bib</a>]
+                            [<a href="#" onclick="$('#emnlp2020_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/csebuetnlp/banglanmt" target="_blank">code</a>]
+                            <div id="emnlp2020_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Despite being the seventh most widely spoken language in the world, Bengali has received much less attention in machine translation literature due to being low in resources. Most publicly available parallel corpora for Bengali are not large enough; and have rather poor quality, mostly because of incorrect sentence alignments resulting from erroneous sentence segmentation, and also because of a high volume of noise present in them. In this work, we build a customized sentence segmenter for Bengali and propose two novel methods for parallel corpus creation on low-resource setups: aligner ensembling and batch filtering. With the segmenter and the two methods combined, we compile a high-quality Bengali-English parallel corpus comprising of 2.75 million sentence pairs, more than 2 million of which were not available before. Training on neural models, we achieve an improvement of more than 9 BLEU score over previous approaches to Bengali-English machine translation. We also evaluate on a new test set of 1000 pairs made with extensive quality control. We release the segmenter, parallel corpus, and the evaluation set, thus elevating Bengali from its low-resource status. To the best of our knowledge, this is the first ever large scale study on Bengali-English machine translation. We believe our study will pave the way for future research on Bengali-English machine translation as well as other low-resource languages. Our data and code are available at <a href="https://github.com/csebuetnlp/banglanmt" target="_blank">https://github.com/csebuetnlp/banglanmt</a>.
+                                </p>
+                            </div>
+                            <div id="emnlp2020_bib" class="bib" style="display:none;">
+                                <pre>
+                                    @inproceedings{hasan-etal-2020-low,
+                                        title = "Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for {B}engali-{E}nglish Machine Translation",
+                                        author = "Hasan, Tahmid  and
+                                          Bhattacharjee, Abhik  and
+                                          Samin, Kazi  and
+                                          Hasan, Masum  and
+                                          Basak, Madhusudan  and
+                                          Rahman, M. Sohel  and
+                                          Shahriyar, Rifat",
+                                        booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                                        month = nov,
+                                        year = "2020",
+                                        address = "Online",
+                                        publisher = "Association for Computational Linguistics",
+                                        url = "https://aclanthology.org/2020.emnlp-main.207",
+                                        doi = "10.18653/v1/2020.emnlp-main.207",
+                                        pages = "2612--2623",                                        
+                                    }
+                                </pre>
+                            </div>
+                        </li>
+                        <br/>
+
+                        <li>
+
                             <a href="https://aclanthology.org/2022.findings-naacl.98.pdf" target="_blank">
                                 <b>BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla</b>
                             </a>
@@ -175,7 +221,7 @@
                             <br/>
                             *: Equal contribution
                             <br/>
-                            <a href="https://aclanthology.org/2022.findings-naacl.98/" target="_blank">
+                            In <a href="https://aclanthology.org/2022.findings-naacl/" target="_blank">
                                 <b>
                                     Findings of the North American Chapter of the Association for Computational Linguistics: NAACL 2022 </b></a>
                             <br/>
@@ -209,6 +255,48 @@
 					    pages = "1318--1327",
 					    abstract = "In this work, we introduce BanglaBERT, a BERT-based Natural Language Understanding (NLU) model pretrained in Bangla, a widely spoken yet low-resource language in the NLP literature. To pretrain BanglaBERT, we collect 27.5 GB of Bangla pretraining data (dubbed {`}Bangla2B+{'}) by crawling 110 popular Bangla sites. We introduce two downstream task datasets on natural language inference and question answering and benchmark on four diverse NLU tasks covering text classification, sequence labeling, and span prediction. In the process, we bring them under the first-ever Bangla Language Understanding Benchmark (BLUB). BanglaBERT achieves state-of-the-art results outperforming multilingual and monolingual models. We are making the models, datasets, and a leaderboard publicly available at \url{https://github.com/csebuetnlp/banglabert} to advance Bangla NLP.",
 					}
+                                </pre>
+                            </div>
+                        </li>
+                        <br/>
+
+                        <li>
+
+                            <a href="https://aclanthology.org/2023.findings-eacl.54.pdf" target="_blank">
+                                <b>BanglaNLG and BanglaT5: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla</b>
+                            </a>
+                            <br/>
+                            Abhik Bhattacharjee, <b>Tahmid Hasan</b>, Wasi Uddin Ahmad, Rifat Shahriyar
+                            <br/>
+                            In <a href="https://aclanthology.org/2023.findings-eacl/" target="_blank">
+                                <b>
+                                    Findings of the Association for Computational Linguistics: EACL 2023 </b></a>
+                            <br/>
+                            [<a href="#" onclick="$('#banglanlg_bib').toggle();return false;">bib</a>]
+                            [<a href="#" onclick="$('#banglanlg_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/csebuetnlp/BanglaNLG" target="_blank">code</a>]
+                            <div id="banglanlg_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    This work presents ‘BanglaNLG,’ a comprehensive benchmark for evaluating natural language generation (NLG) models in Bangla, a widely spoken yet low-resource language. We aggregate six challenging conditional text generation tasks under the BanglaNLG benchmark, introducing a new dataset on dialogue generation in the process. Furthermore, using a clean corpus of 27.5 GB of Bangla data, we pretrain ‘BanglaT5’, a sequence-to-sequence Transformer language model for Bangla. BanglaT5 achieves state-of-the-art performance in all of these tasks, outperforming several multilingual models by up to 9% absolute gain and 32% relative gain. We are making the new dialogue dataset and the BanglaT5 model publicly available at <a href="https://github.com/csebuetnlp/BanglaNLG" target="_blank">https://github.com/csebuetnlp/BanglaNLG</a> in the hope of advancing future research on Bangla NLG.
+                                </p>
+                            </div>
+                            <div id="banglanlg_bib" class="bib" style="display:none;">
+                                <pre>
+                                    @inproceedings{bhattacharjee-etal-2023-banglanlg,
+                                        title = "{B}angla{NLG} and {B}angla{T}5: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in {B}angla",
+                                        author = "Bhattacharjee, Abhik  and
+                                          Hasan, Tahmid  and
+                                          Ahmad, Wasi Uddin  and
+                                          Shahriyar, Rifat",
+                                        booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+                                        month = may,
+                                        year = "2023",
+                                        address = "Dubrovnik, Croatia",
+                                        publisher = "Association for Computational Linguistics",
+                                        url = "https://aclanthology.org/2023.findings-eacl.54",
+                                        pages = "726--735",
+                                        abstract = "This work presents {`}BanglaNLG,{'} a comprehensive benchmark for evaluating natural language generation (NLG) models in Bangla, a widely spoken yet low-resource language. We aggregate six challenging conditional text generation tasks under the BanglaNLG benchmark, introducing a new dataset on dialogue generation in the process. Furthermore, using a clean corpus of 27.5 GB of Bangla data, we pretrain {`}BanglaT5{'}, a sequence-to-sequence Transformer language model for Bangla. BanglaT5 achieves state-of-the-art performance in all of these tasks, outperforming several multilingual models by up to 9{\%} absolute gain and 32{\%} relative gain. We are making the new dialogue dataset and the BanglaT5 model publicly available at https://github.com/csebuetnlp/BanglaNLG in the hope of advancing future research on Bangla NLG.",
+                                    }
                                 </pre>
                             </div>
                         </li>
@@ -264,44 +352,47 @@
 
                         <li>
 
-                            <a href="https://aclanthology.org/2020.emnlp-main.207.pdf" target="_blank">
-                                <b>Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for Bengali-English Machine Translation</b>
+                            <a href="https://aclanthology.org/2022.emnlp-demos.27.pdf" target="_blank">
+                                <b>GEMv2: Multilingual NLG Benchmarking in a Single Line of Code
+                                </b>
                             </a>
                             <br/>
-                            <b>Tahmid Hasan</b>,  Abhik Bhattacharjee,  Kazi Samin, Masum Hasan, Madhusudan Basak, M. Sohel Rahman, Rifat Shahriyar     
+                            Sebastian Gehrmann, ... <b>Tahmid Hasan</b>, ...
                             <br/>
-                            In <a href="https://aclanthology.org/volumes/2020.emnlp-main/" target="_blank">
+                            In <a href="https://aclanthology.org/2022.emnlp-demos.27/" target="_blank">
                                 <b>
-                                    Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP) </b></a>
+                                    Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations </b></a>
                             <br/>
-
-                            [<a href="#" onclick="$('#emnlp2020_bib').toggle();return false;">bib</a>]
-                            [<a href="#" onclick="$('#emnlp2020_abstract').toggle();return false;">abstract</a>]
-                            [<a href="https://github.com/csebuetnlp/banglanmt" target="_blank">code</a>]
-                            <div id="emnlp2020_abstract" class="abstract" style="display:none;">
+                            [<a href="#" onclick="$('#gemv2_bib').toggle();return false;">bib</a>]
+                            [<a href="#" onclick="$('#gemv2_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://huggingface.co/GEM" target="_blank">code</a>]
+                            <div id="gemv2_abstract" class="abstract" style="display:none;">
                                 <p>
-                                    Despite being the seventh most widely spoken language in the world, Bengali has received much less attention in machine translation literature due to being low in resources. Most publicly available parallel corpora for Bengali are not large enough; and have rather poor quality, mostly because of incorrect sentence alignments resulting from erroneous sentence segmentation, and also because of a high volume of noise present in them. In this work, we build a customized sentence segmenter for Bengali and propose two novel methods for parallel corpus creation on low-resource setups: aligner ensembling and batch filtering. With the segmenter and the two methods combined, we compile a high-quality Bengali-English parallel corpus comprising of 2.75 million sentence pairs, more than 2 million of which were not available before. Training on neural models, we achieve an improvement of more than 9 BLEU score over previous approaches to Bengali-English machine translation. We also evaluate on a new test set of 1000 pairs made with extensive quality control. We release the segmenter, parallel corpus, and the evaluation set, thus elevating Bengali from its low-resource status. To the best of our knowledge, this is the first ever large scale study on Bengali-English machine translation. We believe our study will pave the way for future research on Bengali-English machine translation as well as other low-resource languages. Our data and code are available at <a href="https://github.com/csebuetnlp/banglanmt" target="_blank">https://github.com/csebuetnlp/banglanmt</a>.
+                                    Evaluations in machine learning rarely use the latest metrics, datasets, or human evaluation in favor of remaining compatible with prior work. The compatibility, often facilitated through leaderboards, thus leads to outdated but standardized evaluation practices. We pose that the standardization is taking place in the wrong spot. Evaluation infrastructure should enable researchers to use the latest methods and what should be standardized instead is how to incorporate these new evaluation advances.We introduce GEMv2, the new version of the Generation, Evaluation, and Metrics Benchmark which uses a modular infrastructure for dataset, model, and metric developers to benefit from each other’s work. GEMv2 supports 40 documented datasets in 51 languages, ongoing online evaluation for all datasets, and our interactive tools make it easier to add new datasets to the living benchmark.
                                 </p>
                             </div>
-                            <div id="emnlp2020_bib" class="bib" style="display:none;">
+                            <div id="gemv2_bib" class="bib" style="display:none;">
                                 <pre>
-                                    @inproceedings{hasan-etal-2020-low,
-                                        title = "Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for {B}engali-{E}nglish Machine Translation",
-                                        author = "Hasan, Tahmid  and
+                                    @inproceedings{gehrmann-etal-2022-gemv2,
+                                        title = "{GEM}v2: Multilingual {NLG} Benchmarking in a Single Line of Code",
+                                        author = "Gehrmann, Sebastian  and
                                           Bhattacharjee, Abhik  and
-                                          Samin, Kazi  and
-                                          Hasan, Masum  and
-                                          Basak, Madhusudan  and
-                                          Rahman, M. Sohel  and
-                                          Shahriyar, Rifat",
-                                        booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-                                        month = nov,
-                                        year = "2020",
-                                        address = "Online",
+                                          Mahendiran, Abinaya  and
+                                          Wang, Alex  and
+                                          Papangelis, Alexandros  and
+                                          Madaan, Aman  and
+                                          Mcmillan-major, Angelina  and
+                                          Shvets, Anna  and
+                                          Upadhyay, Ashish  and
+                                          Bohnet, Bernd",
+                                        booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+                                        month = dec,
+                                        year = "2022",
+                                        address = "Abu Dhabi, UAE",
                                         publisher = "Association for Computational Linguistics",
-                                        url = "https://aclanthology.org/2020.emnlp-main.207",
-                                        doi = "10.18653/v1/2020.emnlp-main.207",
-                                        pages = "2612--2623",                                        
+                                        url = "https://aclanthology.org/2022.emnlp-demos.27",
+                                        pages = "266--281",
+                                        abstract = "Evaluations in machine learning rarely use the latest metrics, datasets, or human evaluation in favor of remaining compatible with prior work. The compatibility, often facilitated through leaderboards, thus leads to outdated but standardized evaluation practices. We pose that the standardization is taking place in the wrong spot. Evaluation infrastructure should enable researchers to use the latest methods and what should be standardized instead is how to incorporate these new evaluation advances.We introduce GEMv2, the new version of the Generation, Evaluation, and Metrics Benchmark which uses a modular infrastructure for dataset, model, and metric developers to benefit from each other{'}s work. GEMv2 supports 40 documented datasets in 51 languages, ongoing online evaluation for all datasets, and our interactive tools make it easier to add new datasets to the living benchmark.",
                                     }
                                 </pre>
                             </div>
@@ -351,44 +442,7 @@
        
                     <h5>Pre-prints:</h5>
                     <ol>
-                        <li>
-
-                            <a href="pdf/BanglaNLG-preprint.pdf" target="_blank">
-                                <b>BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla</b>
-                            </a>
-                            <br/>
-                            Abhik Bhattacharjee, <b>Tahmid Hasan</b>, Wasi Uddin Ahmad, Rifat Shahriyar
-                            <br/>
-                            <a href="https://arxiv.org/pdf/2205.11081" target="_blank">
-                                <b>
-                                    ArXiv Pre-print, 2022 </b></a>
-                            <br/>
-
-                            [<a href="#" onclick="$('#banglanlg_bib').toggle();return false;">bib</a>]
-                            [<a href="#" onclick="$('#banglanlg_abstract').toggle();return false;">abstract</a>]
-                            [<a href="https://github.com/csebuetnlp/BanglaNLG" target="_blank">code</a>]
-                            <div id="banglanlg_abstract" class="abstract" style="display:none;">
-                                <p>
-                                    This work presents BanglaNLG, a comprehensive benchmark for evaluating natural language generation (NLG) models in Bangla, a widely spoken yet low-resource language in the web domain. We aggregate three challenging conditional text generation tasks under the BanglaNLG benchmark. Then, using a clean corpus of 27.5 GB of Bangla data, we pretrain BanglaT5, a sequence-to-sequence Transformer model for Bangla. BanglaT5 achieves state-of-the-art performance in all of these tasks, outperforming mT5 (base) by up to 5.4%. We are making the BanglaT5 language model and a leaderboard publicly available in the hope of advancing future research and evaluation on Bangla NLG. The resources can be found at <a href="https://github.com/csebuetnlp/BanglaNLG" target="_blank">https://github.com/csebuetnlp/BanglaNLG</a>.
-                                </p>
-                            </div>
-                            <div id="banglanlg_bib" class="bib" style="display:none;">
-                                <pre>
-                                    @article{bhattacharjee2022banglanlg,
-                                        author    = {Abhik Bhattacharjee and Tahmid Hasan and Wasi Uddin Ahmad and Rifat Shahriyar},
-                                        title     = {BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla},
-                                        journal   = {CoRR},
-                                        volume    = {abs/2205.11081},
-                                        year      = {2022},
-                                        url       = {https://arxiv.org/abs/2205.11081},
-                                        eprinttype = {arXiv},
-                                        eprint    = {2205.11081}
-                                      }
-                                </pre>
-                            </div>
-                        </li>
-                        <br/>
-                        
+                                                
                         <li>
 
                             <a href="pdf/CrossSum-preprint.pdf" target="_blank">
@@ -464,18 +518,45 @@
 
             <div class="row" id="ongoing-projects">
                 <div class="col">
-                    <h2>Ongoing Projects</h2>
+                    <h2>Ongoing Projects</h2></br>
                     <ol>
+
                         <li>
-                            <b>Adapting XL-Sum for Cross-Lingual Summarization</b>
-                            [<a href="#" onclick="$('#xlcross_statement').toggle();return false;">statement</a>]                            
-                            <div id="xlcross_statement" class="statement" style="display:none;">
+                            <b>Aligning Large Language Models with Human Values</b>
+                            [<a href="#" onclick="$('#allm_statement').toggle();return false;">statement</a>]                            
+                            <div id="allm_statement" class="statement" style="display:none;">
                                 <p>
-                                    The target language of a multilingual model for cross-lingual summarization is limited to only the language it is fine-tuned on, and we have observed that fine-tuning with multiple languages without cross-lingual supervision can not help control the language of the generated summaries. In this work, we are aiming to generate summaries in any target language for a given article by fine-tuning multilingual models with explicit (albeit limited) cross-lingual signals. By aligning identical articles across languages via cross-lingual retrieval on the <a href="https://github.com/csebuetnlp/xl-sum" target="_blank">XL-Sum dataset</a>, coupled with a multi-stage sampling technique, we are aiming to perform large-scale cross-lingual summarization for 45 languages.
+                                    The rapid advancement of large language models, such as OpenAI's GPT-3, has raised concerns about their potential to generate biased or harmful outputs. Ensuring that these models align with human values is crucial for their responsible deployment in various domains. This research aims to investigate and develop techniques for aligning large language models with human values. The BUET CSE NLP Group is actively engaged in pretraining billion-scale GPT and T5 models in Bangla, which are serving as primary testbeds for our proposed research. The project is exploring directions such as instruction fine-tuning and reinforcement learning with human feedback to enhance the model's alignment with specific human values in the Bangla language context. Additionally, the project is focusing on developing interpretability frameworks to shed light on the decision-making processes of these models, enabling better understanding and control over their output. Additionally, we are also exploring ideas from game theory, cognitive science, and behavioral economics to design objective/reward functions aligned with human rationales.
                                 </p>
                             </div>
                             <br/>
-                            Supervisors: Dr. <a href="https://research.monash.edu/en/persons/yuan-fang-li" target="_blank">Yuan-Fang Li</a> and Prof. Rifat Shahriyar<br/>
+                            Supervisor: Prof. Rifat Shahriyar<br/>
+                            <br/>
+                        </li>
+
+                        <li>
+                            <b>Retrieval-Augmented Large Language Models</b>
+                            [<a href="#" onclick="$('#rllm_statement').toggle();return false;">statement</a>]                            
+                            <div id="rllm_statement" class="statement" style="display:none;">
+                                <p>
+                                    This research is focusing on exploring the potential of retrieval-augmented large language models, aiming to enhance their performance in natural language understanding and generation tasks. Retrieval-based methods have shown promising results in improving the quality and relevance of generated responses in conversational AI systems. This project proposes to investigate techniques that combine the strengths of large language models with effective retrieval mechanisms to generate more contextually relevant and coherent responses. The research involves designing and training retrieval models that can efficiently retrieve relevant information from large knowledge bases or corpora to support the language model's generation process. Furthermore, the project exploring methods for fine-tuning large language models using retrieval-based objectives, enabling it to leverage retrieved information for more accurate and informed responses. Potential applications include open-domain and/or cross-lingual question answering.
+                                </p>
+                            </div>
+                            <br/>
+                            Supervisor: Prof. Rifat Shahriyar<br/>
+                            <br/>
+                        </li>
+
+                        <li>
+                            <b>Vision-Enhanced Large Language Models</b>
+                            [<a href="#" onclick="$('#vllm_statement').toggle();return false;">statement</a>]                            
+                            <div id="vllm_statement" class="statement" style="display:none;">
+                                <p>
+                                    This research aims to investigate the integration of vision in large language models to enhance their capabilities in visual understanding and generation tasks. While large language models have achieved remarkable success in natural language processing, they often lack the ability to comprehend and generate content related to visual information. This project proposes to explore techniques that combine the power of large language models with computer vision methodologies, enabling the models to understand and generate text based on visual input. The research involves designing and training models that can effectively process and analyze images, extracting meaningful visual features to enrich the language model's understanding. Furthermore, the project explores methods for fine-tuning the language model using visual-based objectives, allowing it to generate text that is coherent and aligned with the visual content. The proposal has potential applications in areas such as visual question answering and multimodal summarization.
+                                </p>
+                            </div>
+                            <br/>
+                            Supervisor: Prof. Rifat Shahriyar<br/>
                             <br/>
                         </li>
 
@@ -584,6 +665,15 @@
                 <div class="col">
                     <h2>Teaching Experience</h2>
                     <ul>
+                        <li>
+                        	(January 2023) Course Instructor @ Mathematical Analysis for Computer Science (CSE 301)
+                       	</li>
+                        <li>
+                        	(January 2023) Course Instructor @ Information System Design Sessional (CSE 326)
+                       	</li>
+                        <li>
+                        	(January 2023) Course Instructor @ Software Development Sessional (CSE 408)
+                       	</li>
                         <li>
                         	(July 2022) Course Instructor @ Mathematical Analysis for Computer Science (CSE 301)
                        	</li>
